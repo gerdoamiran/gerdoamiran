@@ -999,3 +999,95 @@ color:#1B4332;
 font-weight:bold;
 text-decoration:none;
 }
+
+/*======================================
+              FOOTER
+======================================*/
+
+.footer{
+
+background:#1B4332;
+
+color:#fff;
+
+padding:70px 0 30px;
+
+}
+
+.footer-grid{
+
+display:grid;
+
+grid-template-columns:2fr 1fr 1fr 1fr;
+
+gap:40px;
+
+}
+
+.footer-title{
+
+font-size:22px;
+
+font-weight:800;
+
+margin-bottom:20px;
+
+}
+
+.footer-text{
+
+line-height:2.2;
+
+color:#D9E7DD;
+
+font-size:15px;
+
+}
+
+.footer-links{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.footer-links li{
+
+margin-bottom:12px;
+
+}
+
+.footer-links a{
+
+color:#D9E7DD;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+color:#C9A227;
+
+}
+
+.footer-bottom{
+
+margin-top:50px;
+
+padding-top:25px;
+
+border-top:1px solid rgba(255,255,255,.15);
+
+text-align:center;
+
+font-size:14px;
+
+color:#BFD4C5;
+
+   }
