@@ -470,3 +470,81 @@ animation:float 5s ease-in-out infinite;
 100%{transform:translateY(0);}
 
    }
+
+/*======================================
+          FEATURES
+======================================*/
+
+.features{
+
+padding:70px 0;
+
+background:#ffffff;
+
+}
+
+.features-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+}
+
+.feature-card{
+
+background:#fff;
+
+padding:35px 25px;
+
+border-radius:18px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.35s;
+
+border:1px solid #ECECEC;
+
+}
+
+.feature-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.feature-icon{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+.feature-title{
+
+font-size:22px;
+
+font-weight:800;
+
+margin-bottom:12px;
+
+color:#1B4332;
+
+}
+
+.feature-text{
+
+font-size:15px;
+
+line-height:2;
+
+color:#666;
+
+}
