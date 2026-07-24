@@ -1,1 +1,155 @@
-/* Gerdo Amiran Style */
+/* =====================================================
+   GERDO AMIRAN
+   MASTER STYLE SHEET
+   Version 1.0
+====================================================== */
+
+/* ===========================
+   ROOT COLORS
+=========================== */
+
+:root{
+
+--primary:#1B4332;
+--primary-dark:#163828;
+--primary-light:#2D6A4F;
+
+--gold:#C9A227;
+
+--walnut:#6F4E37;
+
+--cream:#F7F4EC;
+
+--white:#ffffff;
+
+--text:#222222;
+
+--text-light:#666666;
+
+--border:#E8E4DA;
+
+--shadow:0 12px 35px rgba(0,0,0,.10);
+
+--radius:18px;
+
+--transition:.35s ease;
+
+}
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+background:var(--cream);
+
+color:var(--text);
+
+font-family:tahoma;
+
+line-height:1.8;
+
+overflow-x:hidden;
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+
+width:92%;
+
+max-width:1400px;
+
+margin:auto;
+
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+transition:var(--transition);
+
+}
+
+/* ===========================
+   IMAGES
+=========================== */
+
+img{
+
+width:100%;
+
+display:block;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:14px 34px;
+
+background:var(--gold);
+
+color:#222;
+
+font-weight:bold;
+
+border-radius:50px;
+
+transition:var(--transition);
+
+box-shadow:var(--shadow);
+
+}
+
+.btn:hover{
+
+transform:translateY(-4px);
+
+}
+
+/* ===========================
+   SECTION
+=========================== */
+
+section{
+
+padding:80px 0;
+
+}
