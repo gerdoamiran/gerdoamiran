@@ -1152,3 +1152,67 @@ img{
     }
 
 }
+/* ===== Gerdo Amiran Brand Colors ===== */
+
+:root{
+  --primary:#2E7D32;
+  --primary-dark:#1B5E20;
+  --secondary:#8D6E63;
+  --accent:#C9A227;
+  --light:#F8F8F8;
+  --text:#333333;
+}
+
+body{
+    background:var(--light);
+    color:var(--text);
+    font-family:Tahoma,Vazirmatn,sans-serif;
+}
+
+header{
+    background:#ffffff;
+    border-bottom:1px solid #eeeeee;
+}
+
+.hero{
+    background:linear-gradient(135deg,#2E7D32,#1B5E20);
+    color:#fff;
+}
+
+.hero h1{
+    color:#fff;
+    font-weight:700;
+}
+
+.hero p{
+    color:#F1F1F1;
+}
+
+.hero .btn{
+    background:var(--accent);
+    color:#fff;
+    border-radius:10px;
+    padding:12px 26px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.hero .btn:hover{
+    background:#b78f18;
+}
+
+.feature-card{
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-6px);
+}
+
+.feature-title{
+    color:var(--primary-dark);
+    font-weight:bold;
+}
